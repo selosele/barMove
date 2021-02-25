@@ -61,11 +61,11 @@ if (typeof jQuery === "undefined") throw new Error("jQuery is not defined.");
       });
 
       $(window).on("load resize", function() {
-        _$barChild = $barChild.filter(".on");
+        _$barChild = $barChild.filter("." + option.addClass);
 
         $bar.stop().animate({
-          "left": $(_$barChild).position().left,
-          "width": $(_$barChild).children().outerWidth(),
+          "left": _$barChild.position.left,
+          "width": _$barChild.children().outerWidth(),
         }, option.duration);
       });
     });
