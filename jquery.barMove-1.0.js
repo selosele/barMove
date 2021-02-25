@@ -2,6 +2,7 @@
 barMove
 Version : 1.0
 Author : Sehyun oh
+Create date : 2021.02.25.
 Github : https://github.com/selosele/barMove
 -------------------------------------------------*/
 
